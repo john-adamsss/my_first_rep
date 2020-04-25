@@ -12,6 +12,6 @@ if  a.isdigit() == True :
         print ("{} is not an amstrong number.".format(a))
 elif "-" in liste:
     print("Please enter a positive number")
-elif "." in liste or "," in liste:3,2
+elif "." in liste or "," in liste: 
     print("Please enter an integer number")
 else : print("Do not use any entries other than numeric values")
