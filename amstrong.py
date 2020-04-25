@@ -1,17 +1,16 @@
 a = input("Enter a number please \n")
-liste = list(a)
 if  a.isdigit() == True :
     c = 0
-    for b in liste:
+    for b in a:
         b = int(b)
-        c += b**len(liste)
+        c += b**len(a)
     a = int(a)
     if c == a:
         print ("{} is an amstrong number.".format(a))
     else: 
         print ("{} is not an amstrong number.".format(a))
-elif "-" in liste:
+elif a[0] == "-" :
     print("Please enter a positive number")
-elif "." in liste or "," in liste: 
+elif "." in a or "," in a: 
     print("Please enter an integer number")
 else : print("Do not use any entries other than numeric values")
