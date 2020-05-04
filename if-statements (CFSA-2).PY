@@ -45,3 +45,5 @@ else:
     else: risk = "not in risky"
 
 print ("You are " + risk + " group.")
+
+#sss
